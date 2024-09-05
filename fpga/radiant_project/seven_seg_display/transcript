@@ -1,0 +1,91 @@
+# Reading pref.tcl
+# //  Questa Lattice OEM Edition-64
+# //  Version 2024.2 win64 May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Load canceled
+vlib work
+vlog lab1_kh.sv
+# Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 15:50:57 on Sep 04,2024
+# vlog -reportprogress 300 lab1_kh.sv 
+# ** Error: (vlog-7) Failed to open design unit file "lab1_kh.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 15:50:57 on Sep 04,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/lscc/radiant/2024.1/questasim/win64/vlog failed.
+vlog source/impl_1/lab1_kh.sv
+# Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 15:51:15 on Sep 04,2024
+# vlog -reportprogress 300 source/impl_1/lab1_kh.sv 
+# -- Compiling module lab1_kh
+# 
+# Top level modules:
+# 	lab1_kh
+# End time: 15:51:15 on Sep 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.lab1_kh
+# vsim work.lab1_kh 
+# Start time: 15:51:20 on Sep 04,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.lab1_kh(fast)
+add wave -position end  sim:/lab1_kh/clk
+add wave -position end  sim:/lab1_kh/s
+add wave -position end  sim:/lab1_kh/led
+add wave -position end  sim:/lab1_kh/seg
+force s 0000 
+run 100
+force s 0001
+run 100
+vlog -reportprogress 300 -work work C:/Users/holli/Desktop/Repositories/lab-1-hmc-e155/fpga/radiant_project/seven_seg_display/source/impl_1/lab1_kh.sv
+# Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:05:57 on Sep 04,2024
+# vlog -reportprogress 300 -work work C:/Users/holli/Desktop/Repositories/lab-1-hmc-e155/fpga/radiant_project/seven_seg_display/source/impl_1/lab1_kh.sv 
+# -- Compiling module lab1_kh
+# 
+# Top level modules:
+# 	lab1_kh
+# End time: 16:05:57 on Sep 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/holli/Desktop/Repositories/lab-1-hmc-e155/fpga/radiant_project/seven_seg_display/source/impl_1/lab1_kh.sv
+# Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:05:58 on Sep 04,2024
+# vlog -reportprogress 300 -work work C:/Users/holli/Desktop/Repositories/lab-1-hmc-e155/fpga/radiant_project/seven_seg_display/source/impl_1/lab1_kh.sv 
+# -- Compiling module lab1_kh
+# 
+# Top level modules:
+# 	lab1_kh
+# End time: 16:05:58 on Sep 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+clear
+# invalid command name "clear"
+# Causality operation skipped due to absence of debug database file
+delete wave *
+add wave -position end  sim:/lab1_kh/s
+add wave -position end  sim:/lab1_kh/seg
+
+force s 0000
+run 100
+clear wave *
+# invalid command name "clear"
+delete wave *
+add wave -position end  sim:/lab1_kh/s
+add wave -position end  sim:/lab1_kh/s
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.lab1_kh(fast)
+add wave -position end  sim:/lab1_kh/seg
+force s 0000
+run 100

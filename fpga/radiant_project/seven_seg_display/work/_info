@@ -1,0 +1,54 @@
+m255
+K4
+z2
+Z0 !s12c _opt
+Z1 !s99 nomlopt
+R0
+R1
+!s11f vlog 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 dC:/Users/holli/Desktop/Repositories/lab-1-hmc-e155/fpga/radiant_project/seven_seg_display
+T_opt
+!s110 1725491364
+Vm5BDN64SlZCXJ44oG3HaJ0
+04 7 4 work lab1_kh fast 0
+=2-10ffe033aa50-66d8e8a4-2b-6944
+R1
+!s12f OEM25U1 
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+OL;O;2024.2;79
+vlab1_kh
+2C:/Users/holli/Desktop/Repositories/lab-1-hmc-e155/fpga/radiant_project/seven_seg_display/source/impl_1/lab1_kh.sv
+DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1725491158
+!i10b 1
+!s100 UBVdl27AUeHK37PLW]iN[3
+Ic=aK2aVgRM;j5<5XYo8Nj1
+S1
+R2
+w1725490883
+8C:/Users/holli/Desktop/Repositories/lab-1-hmc-e155/fpga/radiant_project/seven_seg_display/source/impl_1/lab1_kh.sv
+FC:/Users/holli/Desktop/Repositories/lab-1-hmc-e155/fpga/radiant_project/seven_seg_display/source/impl_1/lab1_kh.sv
+!i122 2
+L0 6 27
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2024.2;79
+r1
+!s85 0
+31
+!s108 1725491158.000000
+!s107 C:/Users/holli/Desktop/Repositories/lab-1-hmc-e155/fpga/radiant_project/seven_seg_display/source/impl_1/lab1_kh.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/holli/Desktop/Repositories/lab-1-hmc-e155/fpga/radiant_project/seven_seg_display/source/impl_1/lab1_kh.sv|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3

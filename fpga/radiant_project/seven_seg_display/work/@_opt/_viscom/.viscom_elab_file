@@ -1,0 +1,1 @@
+C:/lscc/radiant/2024.1/questasim/win64/VisualizerRls/bin/viscom.exe -nolock -quiet -jmem_size 393216 work.lab1_kh(fast) -quiet -auto_acc_if_foreign -work work -allow_unnamed -o _opt -id 2-10ffe033aa50-66d8e8a4-2b-6944 +__design_bin_path+C:/Users/holli/Desktop/Repositories/lab-1-hmc-e155/fpga/radiant_project/seven_seg_display
