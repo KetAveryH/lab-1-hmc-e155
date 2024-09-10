@@ -89,3 +89,7 @@ restart
 add wave -position end  sim:/lab1_kh/seg
 force s 0000
 run 100
+forse s 0010
+# invalid command name "forse"
+force s 0010
+run 100
